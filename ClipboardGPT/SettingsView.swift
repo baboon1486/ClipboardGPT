@@ -236,7 +236,8 @@ struct SettingsView_Previews: PreviewProvider {
         let gptModels: [GPTModel] = [
             GPTModel(id: 0, name: "gpt-3.5-turbo-0301"),
             GPTModel(id: 1, name: "gpt-3.5-turbo-0302"),
-            GPTModel(id: 2, name: "gpt-3.5-turbo-0303")
+            GPTModel(id: 2, name: "gpt-3.5-turbo-0303"),
+            GPTModel(id: 3, name: "o3-mini-2025-01-31")
         ]
 
         return SettingsView(
