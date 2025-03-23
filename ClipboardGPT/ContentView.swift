@@ -54,7 +54,7 @@ struct ContentView: View {
     private let gptModels: [GPTModel] = [
         GPTModel(id: 0, name: "gpt-3.5-turbo-0301"),
         GPTModel(id: 1, name: "gpt-3.5-turbo"),
-        GPTModel(id: 2, name: "gpt-4")
+        GPTModel(id: 2, name: "gpt-4"),
         GPTModel(id: 3, name: "o3-mini-2025-01-31")
     ]
     var enabledLabel: String {
